@@ -1,0 +1,11 @@
+Test.
+
+Since we've entered fullscreen, we have to wait five seconds for a popup to disappear... There, this is a completely black screen. Please ensure that your camera is capturing as close as black as possible--- no need to record yet, I will let you know when. Click with your mouse when you're ready for the next step.
+
+This is as bright as the screen will get. If your camera is capturing grey, consider using tinfoil to reflect more of the screen's light towards it, or increase the camera's ISO, until the middle of the image gets overexposed. If the entire image is overexposed, please lower the brightness of the screen until only the middle is. Click again when ready.
+
+This is a focus test. If your camera is capturing any stripes, please move it away or towards the screen until the image is uniform, and click when ready.
+
+If you had to move your camera on the previous step, please ensure only the middle of the image is overexposing again, and click when ready.
+
+Please record this changing pattern for a few seconds, and you're done!

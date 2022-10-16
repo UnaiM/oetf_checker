@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OETF Checker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/oetf_checker.css">
+</head>
+<body>
+  <section id="landing">
+    <h1>OETF Checker</h1>
+    <p><a href="https://github.com/UnaiM/oetf_checker">Go to repository</a></p>
+    <p>This tool will let you film a short video of increasing light intensities emitted by this screen. It can then be used to determine your camera’s <a href="https://en.wikipedia.org/wiki/Transfer_functions_in_imaging" target="_blank">Opto-Electrical Transfer Function</a>. Because this screen will only light up with pure black and white patterns, its colour callibration won’t come into play, so we can be 100% sure that the amount of light increases <strong>linearly.</strong></p>
+    <p>Filming should be done in a <strong>pitch-black environment,</strong> where the only significant light source is this screen. You can cover the gap between the camera and the screen with a black cloth, or even make a tinfoil cone to reflect as much light from the screen as possible.</p>
+    <p>Please set this screen’s <strong>backlight intensity</strong> (sometimes labelled <em>brightness)</em> to its maximum.</p>
+    <p>Ideally, the camera’s <strong>bare sensor</strong> should be facing this screen from a <strong>close distance,</strong> but if your camera has a fixed lens, please <strong>focus it towards infinity.</strong></p>
+    <p>Assuming this is done to better linearise some other footage, the camera’s settings should be <strong>the same as they were during the shoot.</strong> Ideally the ISO should be the same too, but in some cases you’ll need to increase it for this screen’s brightness to be enough.</p>
+    <p>Once you click on the <em>Begin</em> button, this screen will only display what the camera should capture, so <strong>audio instructions</strong> will follow. Make sure you will be able to hear those by playing the following test: <button id="play">Listen</button></p>
+    <audio id="test" src="audio/test.mp3"></audio>
+    <p>You can always exit the tool by pressing <em class="key">Esc</em> on your keyboard.</p>
+    <button id="begin">Begin</button>
+  </section>
+  <section id="viewport"></section>
+  <audio id="audio"></audio>
+  <script src="scripts/oetf_checker.js"></script>
+</body>
+</html>
